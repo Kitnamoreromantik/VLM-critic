@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Collecting transformers
+  Downloading transformers-4.47.0-py3-none-any.whl (10.1 MB)
+Requirement already satisfied: numpy>=1.17 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (2.2.0)
+Collecting huggingface-hub<1.0,>=0.24.0
+  Downloading huggingface_hub-0.26.5-py3-none-any.whl (447 kB)
+Requirement already satisfied: pyyaml>=5.1 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (6.0.2)
+Requirement already satisfied: filelock in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (3.16.1)
+Collecting safetensors>=0.4.1
+  Downloading safetensors-0.4.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (435 kB)
+Collecting tokenizers<0.22,>=0.21
+  Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Requirement already satisfied: packaging>=20.0 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (24.2)
+Requirement already satisfied: tqdm>=4.27 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (4.67.1)
+Requirement already satisfied: requests in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from transformers) (2.32.3)
+Collecting regex!=2019.12.17
+  Downloading regex-2024.11.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (781 kB)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.24.0->transformers) (2024.10.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.24.0->transformers) (4.12.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from requests->transformers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from requests->transformers) (2.2.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from requests->transformers) (3.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/jovyan/.mlspace/envs/multimodal-llm-env/lib/python3.10/site-packages (from requests->transformers) (2024.8.30)
+Installing collected packages: huggingface-hub, tokenizers, safetensors, regex, transformers
+Successfully installed huggingface-hub-0.26.5 regex-2024.11.6 safetensors-0.4.5 tokenizers-0.21.0 transformers-4.47.0
